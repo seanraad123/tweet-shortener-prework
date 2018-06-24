@@ -47,6 +47,7 @@ def selective_tweet_shortener(string)
     else
       #bulk_tweet_shortener(string)
     end
+  print a
   end
 end
 
