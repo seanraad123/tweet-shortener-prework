@@ -44,7 +44,7 @@ def selective_tweet_shortener(string)
     if x.size < 140
       #print x
     else
-      print x.size
+      print x
       #bulk_tweet_shortener(x)
     end
   end
