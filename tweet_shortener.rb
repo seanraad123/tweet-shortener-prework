@@ -41,10 +41,10 @@ def selective_tweet_shortener(string)
   counter = 0
   a = []
   string.each do |x|
-    if x.size < 140
-      return x
-    else
+    if x.size > 140
       word_substituter(x)
+    else
+      return x
     end
   end
 end
