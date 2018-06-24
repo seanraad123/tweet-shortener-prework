@@ -38,8 +38,3 @@ def bulk_tweet_shortener(string)
 end
 
 bulk_tweet_shortener(string)
-
-
-"I'm running out of example tweets 4 u guys, which is weird, because I'm a writer & this is just writing & I tweet all day. 4 real, u guys. 4 real.")
-"I'm running out of example tweets 4 u guys, which is weird, because I'm a writer & this is just writing & I tweet all day. For real, u guys. For rea
-l.")
