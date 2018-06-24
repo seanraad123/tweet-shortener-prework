@@ -32,7 +32,7 @@ def bulk_tweet_shortener(string)
   string.each do |x|
     print string
   end
-  puts word_substituter(string)
+  #puts word_substituter(string)
 end
 
 bulk_tweet_shortener(string)
