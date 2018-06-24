@@ -33,8 +33,8 @@ end
 
 
 def bulk_tweet_shortener(string)
-  
+
   puts word_substituter(string)
 end
 
-#bulk_tweet_shortener(string)
+bulk_tweet_shortener(string)
