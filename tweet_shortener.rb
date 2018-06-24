@@ -42,9 +42,9 @@ def selective_tweet_shortener(string)
   a = []
   string.each do |x|
     if x.size < 140
-      #print x
+      print x
     else
-      #bulk_tweet_shortener(string)
+      bulk_tweet_shortener(string)
     end
   end
 end
