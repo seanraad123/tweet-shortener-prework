@@ -39,9 +39,9 @@ end
 
 def selective_tweet_shortener(string)
   a = ""
-    string.each do |x|
-      a = x.split.each_slice(1).map{|a|a.join ' '}
-    end
+  string.each do |x|
+    a = x.split.each_slice(1).map{|a|a.join ' '}
+  end
   print a
 end
 
