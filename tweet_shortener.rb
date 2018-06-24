@@ -40,14 +40,15 @@ end
 def selective_tweet_shortener(string)
   counter = 0
   a = []
-  string.each do |x|
-    puts x.size
-    if x.size > 140
-    #  puts x
-    else
-      #return x
+  while counter < string.size
+    string.each do |x|
+      puts x.size
+      if x.size > 140
+      #  puts x
+      else
+        #return x
+      end
     end
-  end
 end
 
 selective_tweet_shortener(string)
