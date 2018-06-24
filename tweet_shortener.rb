@@ -42,8 +42,8 @@ def selective_tweet_shortener(string)
   string.each do |x|
     a = x.split.each_slice(1).map{|a|a.join ' '}
     if a.size < 140
-      puts string
-    else 
+      puts TRUE
+    else
       bulk_tweet_shortener(string)
     end
   end
