@@ -42,7 +42,6 @@ def selective_tweet_shortener(string)
   a = []
   string.each do |x|
     counter += 1
-    print counter
     a = x.chars
     if a.size < 140
       #print x
