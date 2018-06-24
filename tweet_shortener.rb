@@ -35,3 +35,9 @@ def bulk_tweet_shortener(string)
     puts word_substituter(x)
   end
 end
+
+
+def selective_tweet_shortener(string)
+    string.each do |x|
+      a = x.split.each_slice(1).map{|a|a.join ' '}
+      print a
