@@ -30,4 +30,4 @@ def bulk_tweet_shortener(string)
   dictionary(string)
 end
 
-bulk_tweet_shortener(string)
+puts bulk_tweet_shortener(string)
