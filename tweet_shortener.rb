@@ -40,7 +40,7 @@ end
 def selective_tweet_shortener(string)
   a = []
   string.each do |x|
-    a = x.split(" ")
+    a = x.chars
     print a
     if a.size < 140
       print x
