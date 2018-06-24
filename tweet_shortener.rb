@@ -13,8 +13,6 @@ def dictionary(word)
                   "and" => "&"}
   sub_keys = substitutions.keys
 
-
-
   sub_keys.each do |key|
     word.map! { |x| x == key ? substitutions[key] : x }.flatten!
   end
@@ -27,8 +25,3 @@ def word_substituter(string)
 
 end
 
-
-string = "OMG you guys, you won't believe how sweet my kitten is. My kitten is like super cuddly and too cute to be believed right?"
-
-
-word_substituter(string)
