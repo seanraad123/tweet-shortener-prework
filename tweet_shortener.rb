@@ -27,5 +27,5 @@ end
 
 
 def bulk_tweet_shortener(string)
-  puts word(string)
+  puts dictionary(string)
 end
