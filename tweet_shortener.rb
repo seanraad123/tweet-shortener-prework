@@ -18,7 +18,7 @@ def dictionary(word)
   sub_keys.each do |key|
     word.map! { |x| x == key ? substitutions[key] : x }.flatten!
   end
-  return word.join(" ")
+  puts word.join(" ")
 end
 
 def word_substituter(string)
@@ -26,6 +26,7 @@ def word_substituter(string)
   dictionary(a)
 end
 
+word_substituter(string)
 
 def bulk_tweet_shortener(string)
   puts dictionary(string)
