@@ -25,3 +25,5 @@ def word_substituter(string)
 
 end
 
+
+def selective_tweet_shortener()
