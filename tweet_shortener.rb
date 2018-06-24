@@ -26,8 +26,6 @@ def word_substituter(string)
   dictionary(a)
 end
 
-word_substituter(string)
-
 def bulk_tweet_shortener(string)
   dictionary(string)
 end
