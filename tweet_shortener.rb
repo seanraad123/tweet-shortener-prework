@@ -42,7 +42,7 @@ def selective_tweet_shortener(string)
   string.each do |x|
     a = x.split.each_slice(1).map{|a|a.join ' '}
   end
-  print a
+  print a.size
 end
 
 selective_tweet_shortener(string)
