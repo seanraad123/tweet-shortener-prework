@@ -18,7 +18,7 @@ def dictionary(word)
   sub_keys.each do |key|
     word.map! { |x| x == key ? substitutions[key] : x }.flatten!
   end
-  puts word.join(" ")
+  return word.join(" ")
 end
 
 def word_substituter(string)
