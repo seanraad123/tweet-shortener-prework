@@ -42,7 +42,7 @@ def selective_tweet_shortener(string)
   a = []
   string.each do |x|
     if x.size > 140
-      puts word_substituter(x)
+      puts x
     else
       return x
     end
