@@ -27,5 +27,5 @@ end
 
 
 def bulk_tweet_shortener(string)
-
+  puts string
 end
