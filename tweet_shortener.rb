@@ -22,10 +22,11 @@ end
 def word_substituter(string)
   a = string.split.each_slice(1).map{|a|a.join ' '}
   dictionary(a)
-
 end
 
 
 def bulk_tweet_shortener(string)
   puts dictionary(string)
 end
+
+bulk_tweet_shortener(string)
