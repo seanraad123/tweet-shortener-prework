@@ -26,6 +26,6 @@ def word_substituter(string)
 end
 
 
-def selective_tweet_shortener(string)
+def bulk_tweet_shortener(string)
 
 end
